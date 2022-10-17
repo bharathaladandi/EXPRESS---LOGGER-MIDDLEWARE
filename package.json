@@ -1,0 +1,26 @@
+{
+  "name": "express---logger-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathaladandi/EXPRESS---LOGGER-MIDDLEWARE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bharathaladandi/EXPRESS---LOGGER-MIDDLEWARE/issues"
+  },
+  "homepage": "https://github.com/bharathaladandi/EXPRESS---LOGGER-MIDDLEWARE#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
