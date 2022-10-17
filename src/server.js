@@ -5,6 +5,10 @@ const morgan = require('morgan');
 const port = 8000;
 
 
+morgan.token("type", function (req, res) {
+    return req.headers["content-type"];
+});
+
 app.use(morgan(":method :url HTTP/:http-version :status :res[content-length] - :response-time ms :date[web]:type"))
 
 
